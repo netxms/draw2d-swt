@@ -22,7 +22,7 @@
    <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <build.finalName>${project.artifactId}-${project.version}</build.finalName>
-      <lib.scope>compile</lib.scope>
+      <lib.scope>provided</lib.scope>
       <swt.version>3.118.0</swt.version>
    </properties>
    <dependencies>
@@ -30,7 +30,7 @@
          <groupId>com.ibm.icu</groupId>
          <artifactId>icu4j</artifactId>
          <version>69.1</version>
-         <scope>${lib.scope}</scope>
+         <scope>compile</scope>
       </dependency>
    </dependencies>
    <profiles>
